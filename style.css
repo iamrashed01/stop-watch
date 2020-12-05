@@ -1,0 +1,63 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #daedff;
+}
+
+.w_wrapper {
+  width: 200px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.w_wrapper .w_main {
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  z-index: 9;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 20px;
+  background: #4d2e07;
+  -webkit-box-shadow: 0 0 15px inset rgba(127, 104, 156, 0.9);
+          box-shadow: 0 0 15px inset rgba(127, 104, 156, 0.9);
+}
+
+.w_wrapper .w_main:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.4);
+}
+
+.w_wrapper .w_main .w_watch {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: white;
+  -webkit-box-shadow: 0 0 15px inset rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px inset rgba(0, 0, 0, 0.5);
+}
+
+.w_wrapper .w_support {
+  height: 500px;
+  width: 100%;
+  background: #4d2e07;
+  -webkit-clip-path: polygon(0 0, 100% 0, 54% 100%, 44% 100%);
+          clip-path: polygon(0 0, 100% 0, 54% 100%, 44% 100%);
+}
+/*# sourceMappingURL=style.css.map */

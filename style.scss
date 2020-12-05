@@ -1,0 +1,55 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(218, 237, 255);
+}
+
+$choklet: #4d2e07;
+
+.w_wrapper {
+  width: 200px;
+  margin: 20px auto;
+  position: relative;
+  .w_main {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    z-index: 9;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    // overflow: hidden;
+    padding: 20px;
+    background: $choklet;
+    box-shadow: 0 0 15px inset rgba(127, 104, 156, 0.9);
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.4);
+    }
+    .w_watch {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: white;
+      box-shadow: 0 0 15px inset rgba(0, 0, 0, 0.5);
+    }
+  }
+  .w_support {
+    height: 500px;
+    width: 100%;
+    background: $choklet;
+    clip-path: polygon(0 0, 100% 0, 54% 100%, 44% 100%);
+  }
+}
