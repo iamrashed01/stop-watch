@@ -39,11 +39,24 @@ $choklet: #4d2e07;
       box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.4);
     }
     .w_watch {
+      position: relative;
       width: 100%;
       height: 100%;
       border-radius: 50%;
       background: white;
       box-shadow: 0 0 15px inset rgba(0, 0, 0, 0.5);
+
+      // watch elements
+      .center_point {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background: #000;
+        transform: translate(-50%, -50%);
+      }
     }
   }
   .w_support {

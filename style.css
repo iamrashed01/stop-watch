@@ -45,12 +45,25 @@ body {
 }
 
 .w_wrapper .w_main .w_watch {
+  position: relative;
   width: 100%;
   height: 100%;
   border-radius: 50%;
   background: white;
   -webkit-box-shadow: 0 0 15px inset rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 15px inset rgba(0, 0, 0, 0.5);
+}
+
+.w_wrapper .w_main .w_watch .center_point {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: #000;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .w_wrapper .w_support {
