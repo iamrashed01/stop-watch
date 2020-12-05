@@ -115,6 +115,19 @@ $choklet: #4d2e07;
         transform: translate(-50%, -50%);
         box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.6);
       }
+
+      // second counter
+      #second_counter {
+        display: block;
+        width: 1px;
+        height: calc(50% - 20px);
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform-origin: bottom;
+        border-right: 1px solid #232323;
+        transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
+      }
     }
   }
   .w_support {

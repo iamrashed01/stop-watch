@@ -141,6 +141,20 @@ body {
           box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.6);
 }
 
+.w_wrapper .w_main .w_watch #second_counter {
+  display: block;
+  width: 1px;
+  height: calc(50% - 20px);
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  border-right: 1px solid #232323;
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
+          transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
+}
+
 .w_wrapper .w_support {
   height: 500px;
   width: 100%;
