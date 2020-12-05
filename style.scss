@@ -45,6 +45,63 @@ $choklet: #4d2e07;
       border-radius: 50%;
       background: white;
       box-shadow: 0 0 15px inset rgba(0, 0, 0, 0.5);
+      transform: rotate(-5deg);
+
+      // small pin of watch
+      span {
+        display: block;
+        width: 1px;
+        height: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform-origin: bottom;
+        // &:before {
+        //   content: "";
+        //   position: absolute;
+        //   left: 0;
+        //   top: 0;
+        //   height: 10px;
+        //   width: 1px;
+        //   border-left: 1px solid #232323;
+        // }
+        &:nth-child(1) {
+          transform: translateX(-50%) rotate(calc(360deg * (1 / 12)));
+        }
+        &:nth-child(2) {
+          transform: translateX(-50%) rotate(calc(360deg * (2 / 12)));
+        }
+        &:nth-child(3) {
+          transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
+        }
+        &:nth-child(4) {
+          transform: translateX(-50%) rotate(calc(360deg * (4 / 12)));
+        }
+        &:nth-child(5) {
+          transform: translateX(-50%) rotate(calc(360deg * (5 / 12)));
+        }
+        &:nth-child(6) {
+          transform: translateX(-50%) rotate(calc(360deg * (6 / 12)));
+        }
+        &:nth-child(7) {
+          transform: translateX(-50%) rotate(calc(360deg * (7 / 12)));
+        }
+        &:nth-child(8) {
+          transform: translateX(-50%) rotate(calc(360deg * (8 / 12)));
+        }
+        &:nth-child(9) {
+          transform: translateX(-50%) rotate(calc(360deg * (9 / 12)));
+        }
+        &:nth-child(10) {
+          transform: translateX(-50%) rotate(calc(360deg * (10 / 12)));
+        }
+        &:nth-child(11) {
+          transform: translateX(-50%) rotate(calc(360deg * (11 / 12)));
+        }
+        &:nth-child(12) {
+          transform: translateX(-50%) rotate(calc(360deg * (12 / 12)));
+        }
+      }
 
       // watch elements
       .center_point {
@@ -56,6 +113,7 @@ $choklet: #4d2e07;
         border-radius: 50%;
         background: #000;
         transform: translate(-50%, -50%);
+        box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.6);
       }
     }
   }
