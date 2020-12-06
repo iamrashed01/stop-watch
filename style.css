@@ -16,6 +16,65 @@ body {
   position: relative;
 }
 
+.w_wrapper .bandoer_er_leg {
+  display: block;
+  width: 3px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 128px;
+  z-index: 1;
+  -webkit-transform-origin: bottom;
+  transform-origin: top;
+  border-bottom: 1px solid #000;
+  background: #e4d5d5;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-animation: bandorless 1.3s linear infinite;
+          animation: bandorless 1.3s linear infinite;
+}
+
+.w_wrapper .bandoer_er_leg:before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  bottom: -25px;
+  height: 50px;
+  width: 50px;
+  background: #e4d5d5;
+  border-radius: 50%;
+}
+
+@-webkit-keyframes bandorless {
+  0% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  50% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes bandorless {
+  0% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  50% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
 .w_wrapper .w_main {
   position: absolute;
   left: 50%;

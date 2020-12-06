@@ -14,6 +14,47 @@ $choklet: #4d2e07;
   width: 200px;
   margin: 20px auto;
   position: relative;
+
+  .bandoer_er_leg {
+    display: block;
+    width: 3px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 128px;
+    z-index: 1;
+    -webkit-transform-origin: bottom;
+    transform-origin: top;
+    border-bottom: 1px solid #000;
+    background: #e4d5d5;
+    transform: translateX(-50%);
+    animation: bandorless 1.3s linear infinite;
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: -25px;
+      bottom: -25px;
+      height: 50px;
+      width: 50px;
+      background: linear-gradient(45deg, #f2f2f2, white);
+      border-radius: 50%;
+      box-shadow: 0 0 9px inset rgb(166 160 160 / 90%);
+    }
+  }
+
+  @keyframes bandorless {
+    0% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
+
   .w_main {
     position: absolute;
     left: 50%;
