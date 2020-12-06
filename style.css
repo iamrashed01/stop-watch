@@ -56,7 +56,7 @@ body {
           transform: rotate(-5deg);
 }
 
-.w_wrapper .w_main .w_watch span {
+.w_wrapper .w_main .w_watch span.sec {
   display: block;
   width: 1px;
   height: 50%;
@@ -67,62 +67,388 @@ body {
           transform-origin: bottom;
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(1) {
+.w_wrapper .w_main .w_watch span.sec:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 7px;
+  width: 1px;
+  border-left: 1px solid #232323;
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(13) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (13 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (13 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(14) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (14 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (14 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(15) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (15 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (15 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(16) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (16 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (16 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(17) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (17 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (17 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(18) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (18 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (18 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(19) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (19 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (19 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(20) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (20 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (20 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(21) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (21 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (21 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(22) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (22 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (22 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(23) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (23 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (23 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(24) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (24 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (24 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(25) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (25 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (25 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(26) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (26 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (26 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(27) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (27 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (27 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(28) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (28 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (28 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(29) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (29 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (29 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(30) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (30 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (30 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(31) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (31 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (31 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(32) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (32 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (32 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(33) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (33 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (33 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(34) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (34 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (34 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(35) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (35 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (35 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(36) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (36 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (36 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(37) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (37 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (37 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(38) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (38 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (38 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(39) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (39 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (39 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(40) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (40 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (40 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(41) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (41 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (41 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(42) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (42 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (42 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(43) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (43 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (43 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(44) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (44 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (44 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(45) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (45 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (45 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(46) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (46 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (46 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(47) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (47 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (47 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(48) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (48 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (48 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(49) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (49 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (49 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(50) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (50 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (50 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(51) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (51 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (51 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(52) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (52 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (52 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(53) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (53 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (53 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(54) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (54 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (54 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(55) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (55 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (55 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(56) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (56 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (56 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(57) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (57 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (57 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(58) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (58 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (58 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(59) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (59 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (59 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(60) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (60 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (60 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(61) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (61 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (61 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(62) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (62 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (62 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(63) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (63 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (63 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(64) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (64 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (64 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(65) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (65 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (65 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(66) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (66 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (66 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(67) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (67 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (67 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(68) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (68 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (68 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(69) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (69 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (69 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(70) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (70 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (70 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(71) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (71 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (71 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(72) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (72 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (72 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.sec:nth-child(73) {
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (73 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (73 / 60)));
+}
+
+.w_wrapper .w_main .w_watch span.hour {
+  display: block;
+  width: 1px;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+.w_wrapper .w_main .w_watch span.hour:nth-child(1) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (1 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (1 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(2) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(2) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (2 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (2 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(3) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(3) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(4) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(4) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (4 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (4 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(5) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(5) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (5 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (5 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(6) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(6) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (6 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (6 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(7) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(7) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (7 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (7 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(8) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(8) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (8 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (8 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(9) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(9) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (9 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (9 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(10) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(10) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (10 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (10 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(11) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(11) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (11 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (11 / 12)));
 }
 
-.w_wrapper .w_main .w_watch span:nth-child(12) {
+.w_wrapper .w_main .w_watch span.hour:nth-child(12) {
   -webkit-transform: translateX(-50%) rotate(calc(360deg * (12 / 12)));
           transform: translateX(-50%) rotate(calc(360deg * (12 / 12)));
 }
@@ -151,8 +477,22 @@ body {
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
   border-right: 1px solid #232323;
-  -webkit-transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
-          transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (0 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (0 / 60)));
+}
+
+.w_wrapper .w_main .w_watch #minute_counter {
+  display: block;
+  width: 2px;
+  height: calc(50% - 35px);
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  border-right: 2px solid #232323;
+  -webkit-transform: translateX(-50%) rotate(calc(360deg * (0 / 60)));
+          transform: translateX(-50%) rotate(calc(360deg * (0 / 60)));
 }
 
 .w_wrapper .w_support {
@@ -161,5 +501,16 @@ body {
   background: #4d2e07;
   -webkit-clip-path: polygon(0 0, 100% 0, 54% 100%, 44% 100%);
           clip-path: polygon(0 0, 100% 0, 54% 100%, 44% 100%);
+}
+
+.controls {
+  text-align: center;
+}
+
+.controls button {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none !important;
 }
 /*# sourceMappingURL=style.css.map */

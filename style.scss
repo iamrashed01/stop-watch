@@ -47,8 +47,7 @@ $choklet: #4d2e07;
       box-shadow: 0 0 15px inset rgba(0, 0, 0, 0.5);
       transform: rotate(-5deg);
 
-      // small pin of watch
-      span {
+      span.sec {
         display: block;
         width: 1px;
         height: 50%;
@@ -56,50 +55,35 @@ $choklet: #4d2e07;
         left: 50%;
         bottom: 50%;
         transform-origin: bottom;
-        // &:before {
-        //   content: "";
-        //   position: absolute;
-        //   left: 0;
-        //   top: 0;
-        //   height: 10px;
-        //   width: 1px;
-        //   border-left: 1px solid #232323;
-        // }
-        &:nth-child(1) {
-          transform: translateX(-50%) rotate(calc(360deg * (1 / 12)));
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 7px;
+          width: 1px;
+          border-left: 1px solid #232323;
         }
-        &:nth-child(2) {
-          transform: translateX(-50%) rotate(calc(360deg * (2 / 12)));
+      }
+      @for $sec from 13 through 73 {
+        span.sec:nth-child(#{$sec}) {
+          transform: translateX(-50%) rotate(calc(360deg * (#{$sec} / 60)));
         }
-        &:nth-child(3) {
-          transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
-        }
-        &:nth-child(4) {
-          transform: translateX(-50%) rotate(calc(360deg * (4 / 12)));
-        }
-        &:nth-child(5) {
-          transform: translateX(-50%) rotate(calc(360deg * (5 / 12)));
-        }
-        &:nth-child(6) {
-          transform: translateX(-50%) rotate(calc(360deg * (6 / 12)));
-        }
-        &:nth-child(7) {
-          transform: translateX(-50%) rotate(calc(360deg * (7 / 12)));
-        }
-        &:nth-child(8) {
-          transform: translateX(-50%) rotate(calc(360deg * (8 / 12)));
-        }
-        &:nth-child(9) {
-          transform: translateX(-50%) rotate(calc(360deg * (9 / 12)));
-        }
-        &:nth-child(10) {
-          transform: translateX(-50%) rotate(calc(360deg * (10 / 12)));
-        }
-        &:nth-child(11) {
-          transform: translateX(-50%) rotate(calc(360deg * (11 / 12)));
-        }
-        &:nth-child(12) {
-          transform: translateX(-50%) rotate(calc(360deg * (12 / 12)));
+      }
+
+      // small pin of watch
+      span.hour {
+        display: block;
+        width: 1px;
+        height: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform-origin: bottom;
+      }
+      @for $hr from 1 through 12 {
+        span.hour:nth-child(#{$hr}) {
+          transform: translateX(-50%) rotate(calc(360deg * (#{$hr} / 12)));
         }
       }
 
@@ -126,7 +110,20 @@ $choklet: #4d2e07;
         bottom: 50%;
         transform-origin: bottom;
         border-right: 1px solid #232323;
-        transform: translateX(-50%) rotate(calc(360deg * (3 / 12)));
+        transform: translateX(-50%) rotate(calc(360deg * (0 / 60)));
+      }
+
+      // minute counter
+      #minute_counter {
+        display: block;
+        width: 2px;
+        height: calc(50% - 35px);
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform-origin: bottom;
+        border-right: 2px solid #232323;
+        transform: translateX(-50%) rotate(calc(360deg * (0 / 60)));
       }
     }
   }
@@ -135,5 +132,15 @@ $choklet: #4d2e07;
     width: 100%;
     background: $choklet;
     clip-path: polygon(0 0, 100% 0, 54% 100%, 44% 100%);
+  }
+}
+
+// controls
+.controls {
+  text-align: center;
+  button {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
   }
 }

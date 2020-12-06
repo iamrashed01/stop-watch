@@ -4,29 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stop Watch</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="w_wrapper">
       <div class="w_main">
         <div class="w_watch">
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
-          <span>4</span>
-          <span>5</span>
-          <span>6</span>
-          <span>7</span>
-          <span>8</span>
-          <span>9</span>
-          <span>10</span>
-          <span>11</span>
-          <span>12</span>
+          <span class="hour">1</span>
+          <span class="hour">2</span>
+          <span class="hour">3</span>
+          <span class="hour">4</span>
+          <span class="hour">5</span>
+          <span class="hour">6</span>
+          <span class="hour">7</span>
+          <span class="hour">8</span>
+          <span class="hour">9</span>
+          <span class="hour">10</span>
+          <span class="hour">11</span>
+          <span class="hour">12</span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
+          <span class="sec"></span>
           <div class="center_point"></div>
           <div id="second_counter"></div>
+          <div id="minute_counter"></div>
         </div>
       </div>
       <div class="w_support"></div>
     </div>
+
+    <div class="clock text-center text-4xl font-bold">
+      <span id="hour">00</span>: <span id="minute">00</span>:
+      <span id="second">00</span>
+    </div>
+
+    <div class="controls mt-10">
+      <button
+        class="h-8 px-3 leading-none mr-2 rounded hover:bg-green-500 bg-green-400 text-white"
+        id="start"
+      >
+        Start
+      </button>
+      <button
+        class="h-8 px-3 leading-none mr-2 rounded hover:bg-red-500 bg-red-600 text-white"
+        id="stop"
+      >
+        Stop
+      </button>
+      <button
+        class="h-8 px-3 leading-none mr-2 rounded hover:bg-yellow-400 bg-yellow-500 text-white"
+        id="reset"
+      >
+        Reset
+      </button>
+      <button
+        class="h-8 px-3 leading-none mr-2 rounded hover:bg-blue-500 bg-blue-400 text-white hidden"
+        id="pause"
+      >
+        Pause
+      </button>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
